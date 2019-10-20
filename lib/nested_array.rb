@@ -29,7 +29,8 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   
-  arr1 = 
+  arr1 = ENNET_HOUSE.sort
+  arr2 = 
   q([ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort])
 end
 
