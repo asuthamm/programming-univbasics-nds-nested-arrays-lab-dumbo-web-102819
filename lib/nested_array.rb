@@ -30,8 +30,9 @@ def array_literal_matrix
   # alphabetically by the first character.
   
   arr1 = ENNET_HOUSE.sort
-  arr2 = 
-  q([ENNET_HOUSE.sort, ENFIELD_TENNIS_ACADEMY.sort])
+  arr2 = ENFIELD_TENNIS_ACADEMY.sort
+  arr = [arr1,arr2]
+  arr
 end
 
 def matrix_lookup(matrix, row, column)
